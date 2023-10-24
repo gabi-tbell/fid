@@ -79,6 +79,40 @@ select {
   cursor: default;
 }
 
+.imagegallerycontainer {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagegallerydiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  padding-top: 5%;
+  padding-bottom: 0%;
+  opacity: 0.6;
+  font-family: Montserrat Alternates;
+  color: #1a1b1f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 1;
+  outline-color: #32343a;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+}
+
 .w-inline-block {
   display: inline-block;
 }
