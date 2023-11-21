@@ -3,26 +3,64 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8">
-		<title>Menu - Page Not Found</title>
-	
-		<style>
-			body { margin: 2em 5%; font-family: Georgia, "Times New Roman", Times, serif;}
-			h1, h2 { color: #399;}h1 { font-size: 1.5em; }
-			h2 { font-family: Verdana, Geneva, sans-serif; font-size: 1em; }
-			small { color: #999;}
-		</style>
+		<title>Menu</title>
+		<link href="BGB-StyleSheet.css" rel="stylesheet">
+
 	</head>
 
 	<body>
-		<h1>Menu</h1>
-		<img src="main-error-404.jpg" alt="Error 404 Message Image" width="178" height="210">
-		<p>Sorry about that folks, we're cooks, not web engineers. But we are working on it. Promise.</p>
-		<p>At the moment, this part of the site is unavailbe.</p>
+        <div id="info">
+            <h1>Black Goose Bistro • Summer Menu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="bgnews.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+		            <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="JensKitchen.html">Jen's Kitchen</a></li>
+                </ul>
+            </nav>
+            <p id="menuHeadingPara">Baker's Corner, Seekonk, Massachusetts<br>
+            <span class="label">Hours: Monday through Thursday:</span> 11 to 9, <span class="label">Friday and Saturday;</span> 11 to midnight</p>
+        </div>
 
-		<p><a href="JensKitchen.html">[Back to the Jen's Kitchen home page]</a></p>
-		<p><a href="index.html">[Black Goose Bistro Home Page]</a></p>
 
-		<p><small>Copyright 2016, Jennifer Robbins</small></p>
+        <div id="appetizers">
+            <h2>Appetizers</h2>
+            <p class="menuPara">This season, we explore the spicy flavors of the southwest in our appetizer collection.</p>
+
+            <dl>
+                <dt>Black bean purses</dt>
+                <dd class="menuPara">Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. <span class="price">$3.95</span></dd>
+
+                <dt class="newitem">Southwestern napoleons with lump crab — <strong>new item!</strong></dt>
+                <dd class="menuPara">Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. <span class="price">$7.95</span></dd>
+            </dl>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="entrees">
+            <h2>Main courses</h2>
+            <p class="menuPara">Big, bold flavors are the name of the game this summer. Allow us to assist you with finding the perfect wine.</p>
+
+            <dl>
+                <dt class="newitem">Jerk rotisserie chicken with fried plantains — <strong>new item!</strong></dt>
+                <dd class="menuPara">Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. <strong>Very spicy.</strong> <span class="price">$12.95</span></dd>
+
+                <dt>Shrimp sate kebabs with peanut sauce</dt>
+                <dd class="menuPara">Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. <span class="price">$12.95</span></dd>
+
+                <dt>Grilled skirt steak with mushroom fricasee</dt>
+                <dd class="menuPara">Flavorful skirt steak marinated in Asian flavors grilled as you like it<sup>*</sup>. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes. <span class="price">$16.95</span></dd>
+            </dl>
+        </div>
+
+        <p class="warning"><sup>*</sup> We are required to warn you that undercooked food is a health risk.</p>
+
+		<p><small class="menuPara">Copyright 2016, Jennifer Robbins</small></p>
 
 	</body>
 </html>

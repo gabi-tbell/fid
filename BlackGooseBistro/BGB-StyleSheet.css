@@ -1,0 +1,122 @@
+﻿body {
+	background-color: #271007;
+	margin: 0 10%;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 5px dotted #ffffff;
+	padding: 30px;
+	color: #ffffff;
+    font: 2.5em "Marko One", Georgia, serif;
+}
+
+.HomeSubHeading {
+	color: olive;
+	font-size: 1em;
+    text-align: left;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {color:#d15528;}
+a:hover {color:#57b1dc;}
+
+.HomeSubPara {
+	color: #ffffff;
+	padding-bottom: 20px;
+	padding-left: 20px;
+    text-align: left;
+}
+  
+.menuPara {
+      color: #ffffff;
+      padding-bottom: 20px;
+ }
+
+#menuHeadingPara {
+    padding-bottom: 50px;
+}
+  
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #d15528;
+}
+  
+dt {
+    font-weight: bold;
+    color: olive;
+}
+  
+strong {
+    font-style: italic;
+}
+  
+dt strong {
+    color: olive;
+}
+ 
+#info p { 
+    font-style: italic; 
+    color: #ffffff;
+}
+  
+.price {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #ffffff;
+}
+  
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+  
+p.warning, sup {
+    font-size: small;
+    color: #ffffff;
+}
+  
+h1, h2, #info { 
+    text-align: center;
+}
+  
+h2 + p { 
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    color: #94d3f1;
+}
+
+.galleryHeader {
+    text-align: left;
+}
+
+img {
+    border-radius: 25px;
+}
